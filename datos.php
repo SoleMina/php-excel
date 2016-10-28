@@ -19,9 +19,11 @@ $objPHPExcel->setActiveSheetIndex(0)
             ->setCellValue('A1', 'Nombre')
             ->setCellValue('B1', 'E-mail')
             ->setCellValue('C1', 'Twitter')
+            ->setCellValue('D1', 'Edad')
             ->setCellValue('A2', 'Karina')
             ->setCellValue('B2', 'pradokspg@gmail.com')
-            ->setCellValue('C2', '@karinaprado');
+            ->setCellValue('C2', '@karinaprado')
+            ->setCellValue('D2', 23);
 
 $objPHPExcel->getActiveSheet()->setTitle('Usuarios');
 $objPHPExcel->setActiveSheetIndex(0);
